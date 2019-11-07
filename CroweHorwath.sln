@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHConsoleApplication", "CHConsoleApplication\CHConsoleApplication.csproj", "{3808B5DE-6E46-412F-9145-7A8CD9C6ACF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHApi", "CHApi\CHApi.csproj", "{2E7645EB-635C-48C8-AA74-C3F125EAC303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA892F95-2318-4BC4-982B-A9F7607CA172}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWebApi", "CHWebApi\CHWebApi.csproj", "{C1B5BBA8-8478-43FC-854A-9266EBE9F029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHApiTests", "CHApiTests\CHApiTests.csproj", "{4B2B8D39-CAA5-4130-B965-33C8598D98C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHWebApiTests", "CHWebApiTests\CHWebApiTests.csproj", "{C14B6A0E-A925-4EA8-8195-0F5590DE4FDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3808B5DE-6E46-412F-9145-7A8CD9C6ACF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3808B5DE-6E46-412F-9145-7A8CD9C6ACF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3808B5DE-6E46-412F-9145-7A8CD9C6ACF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3808B5DE-6E46-412F-9145-7A8CD9C6ACF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7645EB-635C-48C8-AA74-C3F125EAC303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7645EB-635C-48C8-AA74-C3F125EAC303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7645EB-635C-48C8-AA74-C3F125EAC303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7645EB-635C-48C8-AA74-C3F125EAC303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B5BBA8-8478-43FC-854A-9266EBE9F029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B5BBA8-8478-43FC-854A-9266EBE9F029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B5BBA8-8478-43FC-854A-9266EBE9F029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B5BBA8-8478-43FC-854A-9266EBE9F029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2B8D39-CAA5-4130-B965-33C8598D98C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2B8D39-CAA5-4130-B965-33C8598D98C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2B8D39-CAA5-4130-B965-33C8598D98C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2B8D39-CAA5-4130-B965-33C8598D98C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14B6A0E-A925-4EA8-8195-0F5590DE4FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14B6A0E-A925-4EA8-8195-0F5590DE4FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14B6A0E-A925-4EA8-8195-0F5590DE4FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14B6A0E-A925-4EA8-8195-0F5590DE4FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B2B8D39-CAA5-4130-B965-33C8598D98C4} = {AA892F95-2318-4BC4-982B-A9F7607CA172}
+		{C14B6A0E-A925-4EA8-8195-0F5590DE4FDC} = {AA892F95-2318-4BC4-982B-A9F7607CA172}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A063245C-1241-4634-8CB6-D3D8E0ED8A68}
+	EndGlobalSection
+EndGlobal
